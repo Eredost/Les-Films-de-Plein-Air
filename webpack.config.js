@@ -56,7 +56,7 @@ module.exports = {
             ]
         }),
         new BrowserSyncPlugin({
-            files: ['src/scss/*.scss', 'src/assets/*.html'],
+            files: ['src/scss/*/*.scss', 'src/assets/*.html'],
             startPath: '/public',
             host: 'localhost',
             port: 3001,

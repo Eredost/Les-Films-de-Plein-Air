@@ -1,0 +1,14 @@
+.button {
+  text-transform: uppercase;
+  padding: 0.4em 1em;
+  color: $main-text-color;
+  background-color: $main-brand-color;
+  border: 2px solid $main-brand-color;
+  transition: background-color $fast-duration;
+  border-radius: 50px;
+
+  &:hover {
+    background-color: transparent;
+    color: $main-text-color;
+  }
+}
