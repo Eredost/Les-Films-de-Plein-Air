@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: $text-font-families;
+  color: $main-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title-font-families;
+}
+
+a {
+  color: $alt-text-color;
+  transition: color $fast-duration;
+
+  &:hover {
+    color: $link-color;
+  }
+}

@@ -1,2 +1,35 @@
 // Font-Awesome variables
 $fa-font-path: '~font-awesome/fonts';
+
+// Colors
+$lighter-blue: #0f2133;
+$deep-blue:    #06121e;
+$darker-blue:  #020d18;
+$red:          #dd003f;
+$yellow:       #dcf836;
+$grey:         #abb7c4;
+$white:        #ffffff;
+
+$main-text-color: $white;
+$alt-text-color: $grey;
+$main-bg-color: $lighter-blue;
+$main-section-color: $deep-blue;
+$alt-section-color: $darker-blue;
+$link-color: $yellow;
+$main-brand-color: $red;
+
+// Fonts
+$default-font-size: 16px;
+$medium-font-size: 24px;
+
+$title-font-families: 'Open Sans', sans-serif;
+$text-font-families: 'Nunito', sans-serif;
+
+// Breakpoints
+$small-breakpoint: 576px;
+$medium-breakpoint: 768px;
+$large-breakpoint: 992px;
+
+// Transitions
+$fast-duration: .2s;
+$medium-duration: .5s;
