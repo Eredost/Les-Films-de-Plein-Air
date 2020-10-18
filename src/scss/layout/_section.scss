@@ -1,4 +1,6 @@
 .section {
+  padding: 1em 0.5em;
+
   &__wrapper {
     max-width: 1140px;
     margin: 0 auto;
@@ -10,5 +12,13 @@
 
   &:nth-of-type(even) {
     background-color: $main-section-color;
+  }
+
+  @media all and (min-width: $small-breakpoint) {
+    padding: 1.5em 1em;
+  }
+
+  @media all and (min-width: $medium-breakpoint) {
+    padding: 2em 1em;
   }
 }
