@@ -1,0 +1,14 @@
+.section {
+  &__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  &:nth-of-type(odd) {
+    background-color: $alt-section-color;
+  }
+
+  &:nth-of-type(even) {
+    background-color: $main-section-color;
+  }
+}

@@ -1,0 +1,28 @@
+.head {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+
+  &__title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0.7em;
+  }
+
+  &__paragraph {
+    color: $alt-text-color;
+  }
+
+  @media all and (min-width: $small-breakpoint) {
+    &__title {
+      font-size: 2em;
+    }
+  }
+
+  @media all and (min-width: $medium-breakpoint) {
+    &__title {
+      font-size: 3em;
+    }
+  }
+}
