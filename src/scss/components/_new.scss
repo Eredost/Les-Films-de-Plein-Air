@@ -1,0 +1,35 @@
+.new {
+  margin: 0 1em 3em;
+  max-width: 270px;
+
+  &__cover {
+
+    & > img {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    margin-top: 0.7em;
+    font-size: 1.2em;
+    line-height: 1.2;
+
+    & > a {
+      color: $main-text-color;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+
+  &__date {
+    color: $alt-text-color;
+    margin-top: 0.5em;
+  }
+
+  &__resume {
+    line-height: 1.2;
+    margin-top: 1em;
+  }
+}
