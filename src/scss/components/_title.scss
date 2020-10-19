@@ -13,6 +13,19 @@
   margin-bottom: 1.1em;
 }
 
+.page-title {
+  font-size: 1.4em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.6em;
+}
+
+.medium-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 1.5em 0;
+}
+
 @media all and (min-width: $small-breakpoint) {
   .section-title {
     font-size: 1.5em;
@@ -27,5 +40,9 @@
 
   .footer-title {
     margin-bottom: 1.8em;
+  }
+
+  .page-title {
+    font-size: 1.65em;
   }
 }

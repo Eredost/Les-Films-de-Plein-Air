@@ -9,3 +9,13 @@ body {
 a {
   text-decoration: none;
 }
+
+.center {
+  text-align: center;
+}
+
+.paragraph {
+  color: $alt-text-color;
+  margin: 0.5em 0;
+  line-height: 1.3;
+}

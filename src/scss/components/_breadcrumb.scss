@@ -1,0 +1,7 @@
+.breadcrumb {
+  text-align: center;
+
+  @media all and (min-width: $medium-breakpoint) {
+    font-size: 1.05em;
+  }
+}
