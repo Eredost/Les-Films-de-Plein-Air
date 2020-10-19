@@ -4,13 +4,28 @@
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+}
 
-  @media all and (min-width: $small-breakpoint) {
+.footer-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 1.1em;
+}
+
+@media all and (min-width: $small-breakpoint) {
+  .section-title {
     font-size: 1.5em;
   }
+}
 
-  @media all and (min-width: $medium-breakpoint) {
+@media all and (min-width: $medium-breakpoint) {
+  .section-title {
     font-size: 2.2em;
     margin-bottom: 1.5em;
+  }
+
+  .footer-title {
+    margin-bottom: 1.8em;
   }
 }

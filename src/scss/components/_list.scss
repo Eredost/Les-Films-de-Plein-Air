@@ -1,0 +1,13 @@
+.list {
+  font-size: 1.05em;
+
+  &__item + &__item {
+    margin-top: 0.6em;
+  }
+
+  @media all and (min-width: $medium-breakpoint) {
+    &__item + &__item {
+      margin-top: 1em;
+    }
+  }
+}
